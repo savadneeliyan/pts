@@ -390,6 +390,7 @@ header div.right ul li a{
 	margin: auto;
 	width: 95%;
 	display: flex;
+    flex-wrap: wrap;
 	justify-content: space-between;
     align-items: center;
 	flex-wrap: wrap;
@@ -623,6 +624,10 @@ footer section.bottom div.social ul li a img {
     }
     #service section.content div.items div.item a.button{
         padding: 5px 10px;
+    }
+    #module div.items div.content{
+        width: 100%;
+        margin: 20px 0;
     }
     /* #service section.content div.items div.item div.right img{
         display: block;
